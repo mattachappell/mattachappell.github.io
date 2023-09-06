@@ -501,22 +501,27 @@ h1, h2, h3, h4, h5, h6, figure {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+  padding: 5px 0;  /* You can adjust this value to control vertical spacing */
 }
+
 .services h3 {
   font-size: 13px;
   font-family: "Source Sans Pro", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 700;
+  margin-top: 10px;  /* Reducing space above the title */
 }
+
 .services h3 a {
   color: #000;
 }
+
 .services .icon {
   display: table;
   text-align: center;
   margin: 0 auto;
-  margin-bottom: 30px;
+  margin-bottom: 0px;  /* Reduced from 30px to 20px */
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -525,11 +530,13 @@ h1, h2, h3, h4, h5, h6, figure {
   -o-transition: 0.3s;
   transition: 0.3s;
 }
+
 @media screen and (max-width: 992px) {
   .services .icon {
-    margin: 0 auto 30px auto;
+    margin: 0 auto 0px auto;  /* Reduced from 30px to 20px */
   }
 }
+
 .services .icon i {
   display: table-cell;
   vertical-align: middle;
@@ -537,6 +544,7 @@ h1, h2, h3, h4, h5, h6, figure {
   line-height: 40px;
   color: #000;
 }
+
 
 .work {
   background-size: cover;
