@@ -1494,5 +1494,18 @@ input[type="text"] {
   margin: 0 auto;
 }
 
+#fh5co-footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.fh5co-social .fab {
+  font-size: 24px;  /* adjust as needed */
+  color: #333;     /* adjust as needed */
+}
+
+
+
+
 
 /*# sourceMappingURL=style.css.map */
